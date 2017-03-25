@@ -13,24 +13,33 @@
 		<!-- My app main page -->
 		<div data-role="page" id="pageone">
 		  <div data-role="header">
-			<h1>Hello World!</h1>
+			<h1>Business card</h1>
 		  </div>
 		  <div data-role="main" class="ui-content">
-			<p>Hi, I'm your mobile device</p>
-			<a href="#details" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="deviceInfo()">Let me introduce myself!</a>
-		  </div>
+		
+			Nikita Novikov
+			<br>
+			mykytanovikov@gmail.com
+			<br>
+			Applied Informatics
+			<br>
+<div data-role="main" class="ui-content">
+	<a href="#details" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Interests</a>
+</div>
+		</div>
 		  <div data-role="footer" data-position="fixed">
-			<h1>(c) John Brown</h1>
+			<h1>(c) Nikita Novikov</h1>
 		  </div> 
 		</div> 
 		
 		<!-- Mobile device details page -->
 		<div data-role="page" id="details" data-dialog="true">
 			<div data-role="header" data-theme="a">
-				<h1>It's me</h1>
+				<h1>Interests</h1>
 			</div>
 			<div role="main" class="ui-content">
-				<p id="deviceDetails">Place for device details ...</p>
+				<p id="deviceDetails">Moje zainteresowania to programowanie bogatych aplikacji internetowych</p>
+				<a href="#pageone" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">back</a>
 			</div>
 		</div>		
 		
